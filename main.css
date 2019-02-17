@@ -1,11 +1,11 @@
 body {
   height: 100vh;
-  margin: 0;
   display: grid;
   place-items: center;
   text-align: center;
   background: #d7d7d7;
   font-family: bahnschrift;
+  margin: auto;
 }
 
 h1 {
@@ -17,6 +17,12 @@ h1 {
   font-weight: 400;
   transition: all 2s;
   transform: rotate(720deg);
+}
+
+footer {
+  height: 100px;
+  background-color: red;
+  width: 100vw;
 }
 
 body {
