@@ -14,6 +14,12 @@ h1 {
   text-shadow: 1.5px 1.5px  black, -1.5px -1.5px black;
 }
 
+h2 {
+  max-width: 90%;
+  text-align: center;
+  margin: auto;
+}
+
 .big-and-bold {
   font-size: 48px;
   font-weight: 400;
