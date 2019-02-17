@@ -1,4 +1,12 @@
-
+body {
+  height: 100vh;
+  margin: 0;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  background: #d7d7d7;
+  font-family: bahnschrift;
+}
 
 h1 {
   font-weight: 100;
@@ -7,5 +15,30 @@ h1 {
 .big-and-bold {
   font-size: 48px;
   font-weight: 400;
-  transition: all 3s;
+  transition: all 2s;
+  transform: rotate(720deg);
+}
+
+body {
+-webkit-animation-name: backpage; /* Safari 4.0 - 8.0 */
+-webkit-animation-duration: 15s; /* Safari 4.0 - 8.0 */
+animation-name: backpage;
+animation-duration: 15s;
+animation-iteration-count: infinite;
+}
+
+/* Adjust colors for background fade animation*/
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes backpage {
+ 0%   {background-color: #d7d7d7;}
+ 25%  {background-color: #fff;}
+ 50%  {background-color: #d7d7d7;}
+ 90%  {background-color: #fff;}
+}
+/* Standard syntax */
+@keyframes backpage {
+  0%   {background-color: #d7d7d7;}
+  25%  {background-color: #fff;}
+  50%  {background-color: #d7d7d7;}
+  90%  {background-color: #fff;}
 }

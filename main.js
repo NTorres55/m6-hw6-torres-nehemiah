@@ -1,6 +1,6 @@
 // Define variables
 var button = document.getElementsByTagName('button')[0];
-var myHeading = document.getElementsByTagName('h1')[0];
+//var myHeading = document.getElementsByTagName('h1')[0];
 
 var ourRandomLunchItem = document.createElement('p');
 var lunchItemWrapper = document.getElementById('generator-results');
