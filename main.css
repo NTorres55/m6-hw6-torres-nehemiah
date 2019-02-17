@@ -1,15 +1,17 @@
 body {
   height: 100vh;
-  display: grid;
-  place-items: center;
   text-align: center;
-  background: #d7d7d7;
+  background: #fffffe;
   font-family: bahnschrift;
   margin: auto;
+  overflow: hidden;
 }
 
 h1 {
-  font-weight: 100;
+  color: #B11F22;
+  text-transform: uppercase;
+  font-size: 50px;
+  text-shadow: 1.5px 1.5px  black, -1.5px -1.5px black;
 }
 
 .big-and-bold {
@@ -20,31 +22,9 @@ h1 {
 }
 
 footer {
-  height: 100px;
-  background-color: red;
-  width: 100vw;
-}
-
-body {
--webkit-animation-name: backpage; /* Safari 4.0 - 8.0 */
--webkit-animation-duration: 15s; /* Safari 4.0 - 8.0 */
-animation-name: backpage;
-animation-duration: 15s;
-animation-iteration-count: infinite;
-}
-
-/* Adjust colors for background fade animation*/
-/* Safari 4.0 - 8.0 */
-@-webkit-keyframes backpage {
- 0%   {background-color: #d7d7d7;}
- 25%  {background-color: #fff;}
- 50%  {background-color: #d7d7d7;}
- 90%  {background-color: #fff;}
-}
-/* Standard syntax */
-@keyframes backpage {
-  0%   {background-color: #d7d7d7;}
-  25%  {background-color: #fff;}
-  50%  {background-color: #d7d7d7;}
-  90%  {background-color: #fff;}
+  height: 50px;
+  background-color: #B11F22;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
