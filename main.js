@@ -14,8 +14,11 @@ var lunchItems = ['Bella\'s Wood Fired Pizza & Tapas', 'Carroll\'s Kitchen', 'Co
 
 var myFunction = function() {
   lunchItems.sort(function(a, b){return 0.5 - Math.random();});
-  var ourRandomLunchItemFiller = document.createTextNode('lunchItems[0]');
+  var ourRandomLunchItemFiller = document.createTextNode(lunchItems[0]);
   ourRandomLunchItem.appendChild(ourRandomLunchItemFiller);
+  var ourButtonSection = document.getElementById('generator-button');
+  ourButtonSection.removeChild(button);
+  ourRandomLunchItem.classList.add('big-and-bold');
 };
 
 button.onclick = myFunction;
